@@ -35,7 +35,7 @@ public class MainTest {
 //		Main.main(args);
 		
 		// Project 2: Binary Search Trees
-		String[] args = {"/Users/jihyunlee/Documents/BinarySearchTrees","data/BinarySearchTrees.arff"};
+		String[] args = {"/Users/jihyunlee/Documents/PP1-DP/","data/Snake.arff"};
 		
 		assertEquals(args.length,2);
 		

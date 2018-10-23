@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.handong.csee.pp1.dp.CLAMITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-23T12:31:31" hostname="ijihyeon-ui-MacBook-Pro.local" time="0.036">
+  <properties/>
+  <testcase name="testCLAMIWithApacheProjectToFindBestCutoffForPrecision" classname="edu.handong.csee.pp1.dp.CLAMITest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Class label name, isDefective, does not exist! Please, check if the label name is correct.
+]]></system-err>
+</testsuite>
