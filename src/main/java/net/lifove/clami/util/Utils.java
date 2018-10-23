@@ -227,12 +227,12 @@ public class Utils {
 				int TP=0, FP=0,TN=0, FN=0;
 				for(int instIdx = 0; instIdx < newTestInstances.numInstances(); instIdx++){
 					double predictedLabelIdx = classifier.classifyInstance(newTestInstances.get(instIdx));
-					if(!suppress)
-						System.out.println("CLAMI: Instance " + (instIdx+1) + " predicted as, " + 
-							newTestInstances.classAttribute().value((int)predictedLabelIdx)	+
-							//((newTestInstances.classAttribute().indexOfValue(positiveLabel))==predictedLabelIdx?"buggy":"clean") +
-							", (Actual class: " + Utils.getStringValueOfInstanceLabel(newTestInstances,instIdx) + ") ");
-					// compute T/F/P/N for the original instances labeled.
+					if(!suppress) ;
+//						System.out.println("CLAMI: Instance " + (instIdx+1) + " predicted as, " + 
+//							newTestInstances.classAttribute().value((int)predictedLabelIdx)	+
+//							//((newTestInstances.classAttribute().indexOfValue(positiveLabel))==predictedLabelIdx?"buggy":"clean") +
+//							", (Actual class: " + Utils.getStringValueOfInstanceLabel(newTestInstances,instIdx) + ") ");
+//					// compute T/F/P/N for the original instances labeled.
 					if(!Double.isNaN(instances.get(instIdx).classValue())){
 						if(predictedLabelIdx==instances.get(instIdx).classValue()){
 							if(predictedLabelIdx==instances.attribute(instances.classIndex()).indexOfValue(positiveLabel))
